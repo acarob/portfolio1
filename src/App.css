@@ -1,38 +1,34 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-image: linear-gradient(
+    to right top,
+    #ffd6ff,
+    #fbd3ff,
+    #f7d0ff,
+    #f3cdff,
+    #eecaff,
+    #eac7ff,
+    #e5c5ff,
+    #e0c2ff,
+    #dabfff,
+    #d5bcff,
+    #ceb9ff,
+    #c8b6ff
+  );
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
+/* @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  /* font-family: "Pacifico", cursive; */
+  /* font-family: "Lobster Two", cursive; */
+  font-family: "Cookie", cursive;
 }
