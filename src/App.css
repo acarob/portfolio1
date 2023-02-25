@@ -1,4 +1,13 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-size: 18px;
   background-image: linear-gradient(
     to right top,
     #ffd6ff,
@@ -14,21 +23,31 @@
     #ceb9ff,
     #c8b6ff
   );
+}
+
+/* h1 {
+  max-width: 940px;
+  font-size: 3em;
+  font-family: "Cookie", cursive;
+  line-height: 1.1;
+  margin: 40px 0;
+} */
+
+.App {
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* align-items: flex-start; */
+  /* justify-content: center; */
+  /* grid-template-columns: 120px 120px 120px; */
   text-align: center;
 }
 
-/* @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap"); */
-/* @import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap"); */
-@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
-
-h1 {
-  /* font-family: "Pacifico", cursive; */
-  /* font-family: "Lobster Two", cursive; */
-  font-family: "Cookie", cursive;
+.main-container {
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }

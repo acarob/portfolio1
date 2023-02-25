@@ -1,0 +1,29 @@
+.skills-container {
+  width: 600px;
+  height: 260px;
+  margin: 10px 10px 50px;
+  background-color: #ffffff54;
+  box-shadow: 0 3px 13px 1px rgba(255, 255, 255, 0.833);
+  border-radius: 15px;
+  font-family: "Cookie", cursive;
+}
+
+.skills-container h1 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.skills-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 10px;
+  padding-top: 20px;
+}
+
+.object {
+  padding-left: 40px;
+  display: flex;
+  gap: 1rem;
+  font-size: 25px;
+}

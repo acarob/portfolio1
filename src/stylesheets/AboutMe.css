@@ -1,0 +1,44 @@
+.about-container {
+  width: 600px;
+  height: 260px;
+  margin: 10px 10px 50px;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #ffffff54;
+  box-shadow: 0 3px 13px 1px rgba(255, 255, 255, 0.833);
+  border-radius: 15px;
+}
+
+.about-image {
+  height: 100%;
+  width: auto;
+}
+
+.text-container {
+  text-align: center;
+  padding: 40px;
+  font-family: "Cookie", cursive;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.about-image {
+  height: 100%;
+  width: auto;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.name {
+  font-size: 2em;
+}
+
+.charge {
+  font-size: 1.3rem;
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+
+.text {
+  text-align: justify;
+}
