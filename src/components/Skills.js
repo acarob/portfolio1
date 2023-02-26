@@ -43,6 +43,26 @@ function Skills(props) {
           <BiBadgeCheck />
           <p>Figma</p>
         </article>
+        <article className="object">
+          <BiBadgeCheck />
+          <p>SCRUM</p>
+        </article>
+        <article className="object">
+          <BiBadgeCheck />
+          <p>Translation</p>
+        </article>
+        <article className="object">
+          <BiBadgeCheck />
+          <p>Active Listening</p>
+        </article>
+        <article className="object">
+          <BiBadgeCheck />
+          <p>English (C1)</p>
+        </article>
+        <article className="object">
+          <BiBadgeCheck />
+          <p>Teaching</p>
+        </article>
       </div>
     </div>
   );

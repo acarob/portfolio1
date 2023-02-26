@@ -3,6 +3,7 @@ import AboutMe from "./components/AboutMe";
 import ContactMe from "./components/ContactMe";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -50,6 +51,24 @@ function App() {
         enterprise="American School Way"
         dates="Ago. 2016 - Dec. 2018"
         description="Teaching English as a foreign language being part of the student's process of learning through different kinds of activities such as immertion classes (visiting museums and participating in tours); teaching grammar and providing pronunciation classes."
+      />
+      <Projects
+        image="paranoid-bikes"
+        name="Paranoid Bikes E-commerce (team academic project)"
+        link="https://github.com/E-Commerce31b/Paranoid-Bikes"
+        link2="https://paranoid-bikes-front.onrender.com/"
+      />
+      <Projects
+        image="click-counter"
+        name="Click Counter"
+        link="https://github.com/acarob/clicks-counter"
+        link2="https://click-counter-caro.netlify.app/"
+      />
+      <Projects
+        image="fcc-testimonial"
+        name="FCC Testimonials"
+        link="https://github.com/acarob/testimonyFCC"
+        link2="https://fcc-testimony.netlify.app/"
       />
     </div>
   );
