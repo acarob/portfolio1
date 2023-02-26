@@ -1,17 +1,19 @@
 .about-container {
-  width: 600px;
-  height: 260px;
-  margin: 10px 10px 50px;
-  display: flex;
-  justify-content: flex-start;
+  width: 650px;
+  height: 350px;
+  /* margin: 10px 50px 50px; */
   background-color: #ffffff54;
   box-shadow: 0 3px 13px 1px rgba(255, 255, 255, 0.833);
   border-radius: 15px;
+  font-family: "Delius Swash Caps", cursive;
+  display: flex;
 }
 
 .about-image {
-  height: 100%;
-  width: auto;
+  max-width: 100%;
+  height: auto;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .text-container {
@@ -22,23 +24,34 @@
   line-height: 1.5rem;
 }
 
-.about-image {
-  height: 100%;
-  width: auto;
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
-}
-
 .name {
-  font-size: 2em;
+  color: #8338ec;
+  font-size: 35px;
 }
 
 .charge {
-  font-size: 1.3rem;
-  margin-top: 15px;
+  padding-top: 20px;
   padding-bottom: 15px;
+  font-size: 20px;
 }
 
 .text {
   text-align: justify;
+  font-size: 15px;
 }
+
+/* ========== Medium Devices ==========
+
+@media screen and (max-width: 1024px) {
+  .about-container {
+    height: 68vh;
+  }
+}
+
+========== Small Devices ==========
+
+@media screen and (max-width: 600px) {
+  .about-container {
+    height: 100vh;
+  }
+} ; */

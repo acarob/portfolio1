@@ -1,7 +1,7 @@
 .skills-container {
-  width: 600px;
-  height: 260px;
-  margin: 10px 10px 50px;
+  width: 450px;
+  height: 200px;
+  /* margin: 10px 10px 20px; */
   background-color: #ffffff54;
   box-shadow: 0 3px 13px 1px rgba(255, 255, 255, 0.833);
   border-radius: 15px;
@@ -9,21 +9,23 @@
 }
 
 .skills-container h1 {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   text-align: center;
+  font-size: 25px;
+  color: #8338ec;
 }
 
 .skills-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   row-gap: 10px;
-  padding-top: 20px;
+  padding-top: 5px;
 }
 
 .object {
-  padding-left: 40px;
+  padding-left: 20px;
   display: flex;
   gap: 1rem;
-  font-size: 25px;
+  font-size: 13.5px;
 }

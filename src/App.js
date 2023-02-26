@@ -8,7 +8,10 @@ import Projects from "./components/Projects";
 function App() {
   return (
     <div className="App">
-      <div className="main-container">
+      <div className="main-title">
+        <h1>My Portfolio</h1>
+      </div>
+      <div className="about-section">
         <AboutMe
           image="fotoHV"
           name="Andrea Barrera"
@@ -16,9 +19,9 @@ function App() {
           charge2="B.A. in English"
           text="Along my studies I worked in the creation of an e-commerce used to sell bicycles and have been an English teacher for almost ten years. I learn fast, work well in teams, have a great capacity to adapt myself to changes, and great communication skills."
         />
+        <Skills />
+        <ContactMe />
       </div>
-      <Skills />
-      <ContactMe />
       <Experience
         position="FrontEnd Developer (apprenticeship)"
         enterprise="Soy Henry"
@@ -54,19 +57,22 @@ function App() {
       />
       <Projects
         image="paranoid-bikes"
-        name="Paranoid Bikes E-commerce (team academic project)"
+        description="E-commerce (team academic project)"
+        name="Paranoid Bikes"
         link="https://github.com/E-Commerce31b/Paranoid-Bikes"
         link2="https://paranoid-bikes-front.onrender.com/"
       />
       <Projects
         image="click-counter"
-        name="Click Counter"
+        name="Clicks Counter"
+        description="Clicks counter (neon style)"
         link="https://github.com/acarob/clicks-counter"
         link2="https://click-counter-caro.netlify.app/"
       />
       <Projects
         image="fcc-testimonial"
         name="FCC Testimonials"
+        description="FreeCodeCamp testimonials website inspired"
         link="https://github.com/acarob/testimonyFCC"
         link2="https://fcc-testimony.netlify.app/"
       />

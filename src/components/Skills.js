@@ -53,15 +53,15 @@ function Skills(props) {
         </article>
         <article className="object">
           <BiBadgeCheck />
-          <p>Active Listening</p>
-        </article>
-        <article className="object">
-          <BiBadgeCheck />
           <p>English (C1)</p>
         </article>
         <article className="object">
           <BiBadgeCheck />
           <p>Teaching</p>
+        </article>
+        <article className="object">
+          <BiBadgeCheck />
+          <p>Active Listening</p>
         </article>
       </div>
     </div>

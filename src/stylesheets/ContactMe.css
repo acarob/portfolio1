@@ -1,26 +1,28 @@
 .contact-container {
-  width: 600px;
-  height: 260px;
-  margin: 10px 10px 50px;
+  width: 450px;
+  height: 120px;
   background-color: #ffffff54;
   box-shadow: 0 3px 13px 1px rgba(255, 255, 255, 0.833);
   border-radius: 15px;
+  margin-top: 30px;
 }
 
 .contact-container h1 {
   font-family: "Delius Swash Caps", cursive;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  text-align: center;
+  font-size: 20px;
+  color: #8338ec;
 }
 
 .data-containers {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding-left: 90px;
 }
 
 .data-container {
-  width: 100px;
-  height: 100px;
+  width: 85px;
+  height: 85px;
   border: 1px solid white;
   border-radius: 10px;
 }
