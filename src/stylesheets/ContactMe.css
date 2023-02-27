@@ -5,10 +5,10 @@
   box-shadow: 0 3px 13px 1px rgba(255, 255, 255, 0.833);
   border-radius: 15px;
   margin-top: 30px;
+  font-family: "Delius Swash Caps", cursive;
 }
 
 .contact-container h1 {
-  font-family: "Delius Swash Caps", cursive;
   text-align: center;
   font-size: 20px;
   color: #8338ec;
@@ -18,29 +18,31 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   padding-left: 90px;
+  margin-top: 8px;
 }
 
 .data-container {
-  width: 85px;
-  height: 85px;
-  border: 1px solid white;
+  width: 96px;
+  height: 80px;
+  box-shadow: 0 3px 13px 1px rgba(255, 255, 255, 0.833);
   border-radius: 10px;
-}
-
-.data-container a {
-  font-family: "Delius Swash Caps", cursive;
-  text-decoration: none;
-  font-size: 10px;
+  text-align: center;
+  padding-top: 6px;
 }
 
 .data-container button {
   height: 25px;
   width: 80px;
-  background-color: #ffd6ff;
-  border: 1px solid white;
+  background-color: #8338ec;
   border-radius: 5px;
+  font-family: "Delius Swash Caps", cursive;
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
 }
 
 .data-container button:hover {
   background-color: #ffffff54;
+  color: #8338ec;
+  cursor: pointer;
 }

@@ -1,0 +1,10 @@
+.experience-container {
+  font-family: "Delius Swash Caps", cursive;
+}
+
+.experience-containers {
+  width: 350px;
+  height: 380px;
+  background-color: #ffffff54;
+  box-shadow: 0 3px 13px 1px rgba(255, 255, 255, 0.833);
+}
