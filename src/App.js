@@ -72,31 +72,33 @@ function App() {
           />
         </div>
       </div>
-      <div className="secondary-title">
-        <h1>My Projects</h1>
-      </div>
-      <div className="projects-section-1">
-        <Projects
-          image="paranoid-bikes"
-          description="Bycicle E-commerce (team academic project)."
-          name="Paranoid Bikes"
-          link="https://github.com/E-Commerce31b/Paranoid-Bikes"
-          link2="https://paranoid-bikes-front.onrender.com/"
-        />
-        <Projects
-          image="click-counter"
-          name="Clicks Counter"
-          description="Game used to count the quantity of clicks made (neon style)."
-          link="https://github.com/acarob/clicks-counter"
-          link2="https://click-counter-caro.netlify.app/"
-        />
-        <Projects
-          image="fcc-testimonial"
-          name="FCC Testimonials"
-          description="FreeCodeCamp testimonials website inspired."
-          link="https://github.com/acarob/testimonyFCC"
-          link2="https://fcc-testimony.netlify.app/"
-        />
+      <div>
+        <div className="secondary-title">
+          <h1>My Projects</h1>
+        </div>
+        <div className="projects-section-1">
+          <Projects
+            image="paranoid-bikes"
+            description="Bycicle E-commerce (team academic project)."
+            name="Paranoid Bikes"
+            link="https://github.com/E-Commerce31b/Paranoid-Bikes"
+            link2="https://paranoid-bikes-front.onrender.com/"
+          />
+          <Projects
+            image="click-counter"
+            name="Clicks Counter"
+            description="Game used to count the quantity of clicks made (neon style)."
+            link="https://github.com/acarob/clicks-counter"
+            link2="https://click-counter-caro.netlify.app/"
+          />
+          <Projects
+            image="fcc-testimonial"
+            name="FCC Testimonials"
+            description="FreeCodeCamp testimonials website inspired."
+            link="https://github.com/acarob/testimonyFCC"
+            link2="https://fcc-testimony.netlify.app/"
+          />
+        </div>
       </div>
     </div>
   );
