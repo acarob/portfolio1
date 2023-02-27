@@ -8,20 +8,22 @@ import Projects from "./components/Projects";
 function App() {
   return (
     <div className="App">
-      <div className="main-title">
-        <h1>My Portfolio</h1>
-      </div>
-      <div className="about-section">
-        <AboutMe
-          image="fotoHV"
-          name="Andrea Barrera"
-          charge1="FrontEnd Developer"
-          charge2="B.A. in English"
-          text="Along my studies I worked in the creation of an e-commerce used to sell bicycles and have been an English teacher for almost ten years. I learn fast, work well in teams, have a great capacity to adapt myself to changes, and great communication skills."
-        />
-        <div>
-          <Skills />
-          <ContactMe />
+      <div>
+        <div className="main-title">
+          <h1>My Portfolio</h1>
+        </div>
+        <div className="about-section">
+          <AboutMe
+            image="fotoHV"
+            name="Andrea Barrera"
+            charge1="FrontEnd Developer"
+            charge2="B.A. in English"
+            text="Along my studies I worked in the creation of an e-commerce used to sell bicycles and have been an English teacher for almost ten years. I learn fast, work well in teams, have a great capacity to adapt myself to changes, and great communication skills."
+          />
+          <div>
+            <Skills />
+            <ContactMe />
+          </div>
         </div>
       </div>
       <div>

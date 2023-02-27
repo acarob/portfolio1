@@ -48,9 +48,10 @@ body {
 
 .about-section {
   display: grid;
-  grid-template-columns: 700px 0px;
+  grid-template-columns: 700px 462px;
   margin-top: 20px;
   margin-left: 50px;
+  margin-right: 50px;
 }
 
 .secondary-title {
