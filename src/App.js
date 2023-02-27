@@ -48,7 +48,7 @@ function App() {
             position="Full-Stack Teaching Assistant"
             enterprise="Soy Henry"
             dates="Nov. 2022 - Dec. 2022"
-            description="Bootcamp Assistant (TA) for Full-Stack Development Students. Main tasks: Coordinate a group of students to achieve integration to the study group. Guide students in the first steps of the course. Assist to solve exercises and promote group collaboration (Pair Programming). Propose ideas to improve the Bootcamp processes."
+            description="Bootcamp Teaching Assistant (TA) for Full-Stack Development Students. Main tasks: Coordinate a group of students to achieve integration to the study group. Guide students in the first steps of the course. Assist to solve exercises and promote group collaboration (Pair Programming). Propose ideas to improve the Bootcamp processes."
           />
         </div>
         <div className="experience-section-2">
@@ -72,27 +72,32 @@ function App() {
           />
         </div>
       </div>
-      <Projects
-        image="paranoid-bikes"
-        description="E-commerce (team academic project)"
-        name="Paranoid Bikes"
-        link="https://github.com/E-Commerce31b/Paranoid-Bikes"
-        link2="https://paranoid-bikes-front.onrender.com/"
-      />
-      <Projects
-        image="click-counter"
-        name="Clicks Counter"
-        description="Clicks counter (neon style)"
-        link="https://github.com/acarob/clicks-counter"
-        link2="https://click-counter-caro.netlify.app/"
-      />
-      <Projects
-        image="fcc-testimonial"
-        name="FCC Testimonials"
-        description="FreeCodeCamp testimonials website inspired"
-        link="https://github.com/acarob/testimonyFCC"
-        link2="https://fcc-testimony.netlify.app/"
-      />
+      <div className="secondary-title">
+        <h1>My Projects</h1>
+      </div>
+      <div className="projects-section-1">
+        <Projects
+          image="paranoid-bikes"
+          description="Bycicle E-commerce (team academic project)."
+          name="Paranoid Bikes"
+          link="https://github.com/E-Commerce31b/Paranoid-Bikes"
+          link2="https://paranoid-bikes-front.onrender.com/"
+        />
+        <Projects
+          image="click-counter"
+          name="Clicks Counter"
+          description="Game used to count the quantity of clicks made (neon style)."
+          link="https://github.com/acarob/clicks-counter"
+          link2="https://click-counter-caro.netlify.app/"
+        />
+        <Projects
+          image="fcc-testimonial"
+          name="FCC Testimonials"
+          description="FreeCodeCamp testimonials website inspired."
+          link="https://github.com/acarob/testimonyFCC"
+          link2="https://fcc-testimony.netlify.app/"
+        />
+      </div>
     </div>
   );
 }

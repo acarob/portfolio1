@@ -3,8 +3,24 @@
 }
 
 .experience-containers {
-  width: 350px;
-  height: 380px;
+  width: 354px;
+  height: 450px;
   background-color: #ffffff54;
   box-shadow: 0 3px 13px 1px rgba(255, 255, 255, 0.833);
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px;
+}
+
+.experience-container h2 {
+  color: #8338ec;
+  margin-bottom: 10px;
+}
+
+.experience-container h6 {
+  margin-bottom: 15px;
+}
+
+.experience-container p {
+  text-align: justify;
 }

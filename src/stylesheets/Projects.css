@@ -1,3 +1,49 @@
+.projects-container {
+  font-family: "Delius Swash Caps", cursive;
+}
+
+.project-container {
+  width: 354px;
+  height: 330px;
+  background-color: #ffffff54;
+  box-shadow: 0 3px 13px 1px rgba(255, 255, 255, 0.833);
+  border-radius: 15px;
+  text-align: center;
+  padding: 20px;
+}
+
 .project-container img {
   height: 150px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.project-container h2 {
+  margin-bottom: 10px;
+}
+
+.project-container p {
+  margin-bottom: 10px;
+}
+
+.project-button-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.project-button-container button {
+  height: 25px;
+  width: 80px;
+  background-color: #8338ec;
+  border-radius: 5px;
+  font-family: "Delius Swash Caps", cursive;
+  color: white;
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.project-button-container button:hover {
+  background-color: #ffffff54;
+  color: #8338ec;
+  cursor: pointer;
 }
