@@ -18,7 +18,7 @@ function Projects(props) {
           </a>
           <a href={props.link2} target="blank">
             <button>
-              <FaRocket /> Deploy
+              <FaRocket /> Website
             </button>
           </a>
         </div>
