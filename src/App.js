@@ -10,7 +10,7 @@ import Home from "./components/Home";
 function App() {
   return (
     <div className="App">
-      <div className="container">
+      <div className="container" id="home">
         <div>
           <div className="main-title">
             <h1>My Portfolio</h1>
@@ -19,21 +19,21 @@ function App() {
             <Home />
           </div>
           <Navbar />
-          <div className="about-section">
-            <AboutMe
-              image="fotoHV"
-              name="Andrea Barrera"
-              charge1="FrontEnd Developer"
-              charge2="B.A. in English"
-              text="Along my studies I worked in the creation of an e-commerce used to sell bicycles and have been an English teacher for almost ten years. I learn fast, work well in teams, have a great capacity to adapt myself to changes, and great communication skills."
-            />
-            <div>
-              <Skills />
-              <ContactMe />
-            </div>
+        </div>
+        <div className="about-section" id="about">
+          <AboutMe
+            image="fotoHV"
+            name="Andrea Barrera"
+            charge1="FrontEnd Developer"
+            charge2="B.A. in English"
+            text="Along my studies I worked in the creation of an e-commerce used to sell bicycles and have been an English teacher for almost ten years. I learn fast, work well in teams, have a great capacity to adapt myself to changes, and great communication skills."
+          />
+          <div className="other-about">
+            <Skills />
+            <ContactMe />
           </div>
         </div>
-        <div>
+        <div id="experience">
           <div className="secondary-title">
             <h1>My Experience</h1>
           </div>
@@ -81,7 +81,7 @@ function App() {
             />
           </div>
         </div>
-        <div>
+        <div id="projects">
           <div className="secondary-title">
             <h1>My Projects</h1>
           </div>
