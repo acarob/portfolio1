@@ -1,5 +1,5 @@
 .projects-container {
-  font-family: "Delius Swash Caps", cursive;
+  font-family: "Comfortaa", cursive;
 }
 
 .project-container {
@@ -20,6 +20,7 @@
 
 .project-container h2 {
   margin-bottom: 10px;
+  color: #8338ec;
 }
 
 .project-container p {
@@ -36,7 +37,7 @@
   width: 80px;
   background-color: #8338ec;
   border-radius: 5px;
-  font-family: "Delius Swash Caps", cursive;
+  font-family: "Comfortaa", cursive;
   color: white;
   text-decoration: none;
   font-size: 10px;

@@ -8,6 +8,7 @@ function Experience(props) {
         <h2>{props.position}</h2>
         <h3>{props.enterprise}</h3>
         <h6>{props.dates}</h6>
+        <br></br>
         <p>{props.description}</p>
       </div>
     </div>

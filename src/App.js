@@ -4,6 +4,8 @@ import ContactMe from "./components/ContactMe";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
 
 function App() {
   return (
@@ -13,6 +15,10 @@ function App() {
           <div className="main-title">
             <h1>My Portfolio</h1>
           </div>
+          <div className="home-section">
+            <Home />
+          </div>
+          <Navbar />
           <div className="about-section">
             <AboutMe
               image="fotoHV"

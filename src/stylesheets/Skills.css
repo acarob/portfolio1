@@ -1,11 +1,10 @@
 .skills-container {
   width: 450px;
   height: 200px;
-  /* margin: 10px 10px 20px; */
   background-color: #ffffff54;
   box-shadow: 0 3px 13px 1px rgba(255, 255, 255, 0.833);
   border-radius: 15px;
-  font-family: "Delius Swash Caps", cursive;
+  font-family: "Comfortaa", cursive;
 }
 
 .skills-container h1 {
