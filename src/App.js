@@ -92,6 +92,7 @@ function App() {
               name="Paranoid Bikes"
               link="https://github.com/E-Commerce31b/Paranoid-Bikes"
               link2="https://paranoid-bikes-front.onrender.com/"
+              status="desabled"
             />
             <Projects
               image="click-counter"

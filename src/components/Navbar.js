@@ -3,7 +3,7 @@ import "../stylesheets/Navbar.css";
 import { FaHome } from "react-icons/fa";
 import { BiUser } from "react-icons/bi";
 import { BsFillJournalBookmarkFill } from "react-icons/bs";
-import { GrWorkshop } from "react-icons/gr";
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
 
 function Nav() {
   return (
@@ -18,7 +18,7 @@ function Nav() {
         <BsFillJournalBookmarkFill />
       </a>
       <a href="#projects">
-        <GrWorkshop />
+        <AiOutlineFundProjectionScreen />
       </a>
     </nav>
   );

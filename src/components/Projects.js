@@ -17,7 +17,7 @@ function Projects(props) {
             </button>
           </a>
           <a href={props.link2} target="blank">
-            <button>
+            <button disabled={props.status}>
               <FaRocket /> Website
             </button>
           </a>

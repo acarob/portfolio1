@@ -26,6 +26,8 @@
 
 .project-container p {
   margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 1.5rem;
 }
 
 .project-button-container {
@@ -48,4 +50,8 @@
   background-color: #ffffff54;
   color: #8338ec;
   cursor: pointer;
+}
+
+button:disabled {
+  background-color: #dddddd;
 }
