@@ -40,10 +40,10 @@
     height: auto;
     /* height: 220px; */
     margin: 20px auto;
-    padding-bottom: 6px;
+    padding-bottom: 10px;
   }
 
-  .object {
-    font-size: 11px;
+  .skills-content {
+    grid-template-columns: 1fr 1fr;
   }
 }
