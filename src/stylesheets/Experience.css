@@ -26,3 +26,15 @@
   font-size: 15px;
   line-height: 1.5rem;
 }
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+@media screen and (max-width: 1024px) {
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+@media screen and (max-width: 600px) {
+  .experience-containers {
+    width: 340px;
+    margin: 0 auto 30px;
+  }
+}

@@ -13,7 +13,6 @@
 
 body {
   font-size: 18px;
-  /* background-color: #c8b6ff; */
   background-image: linear-gradient(
     to right top,
     #ffd6ff,
@@ -29,6 +28,8 @@ body {
     #ceb9ff,
     #c8b6ff
   );
+  width: 100%;
+  height: auto;
 }
 
 .App {
@@ -106,4 +107,57 @@ body {
 
 .other-about {
   margin-top: 50px;
+}
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+@media screen and (max-width: 1024px) {
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+    height: auto;
+  }
+
+  .home-section {
+    width: 100%;
+    height: auto;
+    column-count: 1;
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  .about-section {
+    width: 100%;
+    height: auto;
+    grid-template-columns: 0;
+    display: block;
+    margin: 20px auto;
+  }
+
+  .other-about {
+    margin: 20px auto;
+  }
+
+  .experience-section-1 {
+    column-count: 1;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+  .experience-section-2 {
+    column-count: 1;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .projects-section-1 {
+    column-count: 1;
+    margin-left: 0;
+    margin-right: 0;
+  }
 }

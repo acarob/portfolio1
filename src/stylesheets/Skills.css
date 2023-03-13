@@ -28,3 +28,20 @@
   gap: 1rem;
   font-size: 13.5px;
 }
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+@media screen and (max-width: 1024px) {
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+@media screen and (max-width: 600px) {
+  .skills-container {
+    width: 340px;
+    height: 220px;
+    margin: 20px auto;
+  }
+
+  .object {
+    font-size: 12.5px;
+  }
+}

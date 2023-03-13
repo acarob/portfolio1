@@ -3,3 +3,27 @@
   font-family: "Comfortaa", cursive;
   padding-top: 80px;
 }
+
+/* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
+@media screen and (max-width: 1024px) {
+  .home-container {
+    height: 68vh;
+  }
+}
+
+/* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
+@media screen and (max-width: 600px) {
+  .title-container {
+    text-align: center;
+  }
+
+  .home-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .home-image {
+    width: 100%;
+    height: auto;
+  }
+}
