@@ -47,13 +47,19 @@
 @media screen and (max-width: 600px) {
   .about-container {
     display: block;
-    width: 340px;
-    height: 850px;
+    /* width: 340px;
+    height: 850px; */
+    width: 90%;
+    height: auto;
     margin: 30px auto;
   }
 
   .about-image {
     border-radius: 15px;
+  }
+
+  .text-container {
+    padding: 10px;
   }
 
   .name {

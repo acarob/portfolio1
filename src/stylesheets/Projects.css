@@ -15,6 +15,7 @@
 
 .project-container img {
   height: 150px;
+  width: auto;
   border-radius: 15px;
   margin-bottom: 10px;
 }
@@ -63,7 +64,14 @@ button:disabled {
 /* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
 @media screen and (max-width: 600px) {
   .project-container {
-    width: 340px;
+    /* width: 340px; */
+    width: 90%;
+    height: auto;
     margin: 0 auto;
+  }
+
+  .project-container img {
+    width: 100%;
+    height: auto;
   }
 }

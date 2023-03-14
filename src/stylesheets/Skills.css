@@ -36,9 +36,10 @@
 /* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
 @media screen and (max-width: 600px) {
   .skills-container {
-    width: 340px;
+    /* width: 340px;
+    height: auto; */
+    width: 90%;
     height: auto;
-    /* height: 220px; */
     margin: 20px auto;
     padding-bottom: 10px;
   }

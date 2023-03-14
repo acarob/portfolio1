@@ -34,7 +34,9 @@
 /* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
 @media screen and (max-width: 600px) {
   .experience-containers {
-    width: 340px;
+    /* width: 340px;
+    height: auto; */
+    width: 90%;
     height: auto;
     margin: 0 auto 30px;
   }

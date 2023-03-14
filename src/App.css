@@ -161,4 +161,12 @@ body {
     margin-left: 0;
     margin-right: 0;
   }
+
+  .main-title {
+    font-size: 100%;
+  }
+
+  .secondary-title {
+    font-size: 90%;
+  }
 }
