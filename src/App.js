@@ -91,8 +91,8 @@ function App() {
               description="Bycicle E-commerce (team academic project)."
               name="Paranoid Bikes"
               link="https://github.com/E-Commerce31b/Paranoid-Bikes"
-              link2="https://paranoid-bikes-front.onrender.com/"
-              status="desabled"
+              link2="https://paranoid-bikes-front-879l.onrender.com/"
+              // status="desabled"
             />
             <Projects
               image="click-counter"
