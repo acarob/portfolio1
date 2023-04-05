@@ -63,10 +63,6 @@ button:disabled {
 
 /* ========== MEDIA QUERIES (SMALL DEVICES) ========== */
 @media screen and (max-width: 600px) {
-  .projects-container {
-    margin-bottom: 60px;
-  }
-
   .project-container {
     /* width: 340px; */
     width: 90%;
