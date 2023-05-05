@@ -102,14 +102,21 @@ function App() {
               link2="https://my-cute-calculator.netlify.app/"
             />
             <Projects
+              image="toDo"
+              name="To Do List"
+              description="App used to set a list of tasks which can be deleted or completed."
+              link="https://github.com/acarob/todolist"
+              link2="https://caro-todo.netlify.app/"
+            />
+          </div>
+          <div className="projects-section-2">
+            <Projects
               image="click-counter"
               name="Clicks Counter"
               description="Game used to count the quantity of clicks made (neon style)."
               link="https://github.com/acarob/clicks-counter"
               link2="https://click-counter-caro.netlify.app/"
             />
-          </div>
-          <div className="projects-section-2">
             <Projects
               image="fcc-testimonial"
               name="FCC Testimonials"
