@@ -13,15 +13,19 @@ function Skills(props) {
         </article>
         <article className="object">
           <BiBadgeCheck />
-          <p>TypeScript</p>
+          <p>Cypress</p>
+        </article>
+        <article className="object">
+          <BiBadgeCheck />
+          <p>Selenium</p>
+        </article>
+        <article className="object">
+          <BiBadgeCheck />
+          <p>Postman</p>
         </article>
         <article className="object">
           <BiBadgeCheck />
           <p>React</p>
-        </article>
-        <article className="object">
-          <BiBadgeCheck />
-          <p>Redux</p>
         </article>
         <article className="object">
           <BiBadgeCheck />
@@ -34,10 +38,6 @@ function Skills(props) {
         <article className="object">
           <BiBadgeCheck />
           <p>Bulma</p>
-        </article>
-        <article className="object">
-          <BiBadgeCheck />
-          <p>Bootstrap</p>
         </article>
         <article className="object">
           <BiBadgeCheck />
